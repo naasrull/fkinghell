@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style1.css" />
+
+<title> Malaysia Nursing Conference 2020 </title>
+
+
+
+<style>
+
+.blue {
+  color: red;
+}
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(images/blend.png) no-repeat;
+	background-size: cover;
+    background-color:#000000;
+    background-position:center top;
+	background-attachment:fixed;
+	text-align: left;
+	font-family: Helvetica, Arial,  sans-serif;
+	font-size: 13px;
+	color: #F1F5F8;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+
+html, body {
+text-align: center;
+}
+p {text-align: center;}
+
+
+
+
+#header
+{
+background-image:url(images/header.png);
+background-repeat:no-repeat;
+height:155px;
+width:742px;
+display:block;
+clear:both;
+}
+
+
+
+#header h1
+{
+position:relative;
+margin-left:20px;
+padding-top:60px;
+color:#000000;
+text-align:center;
+font-size:47px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+#content .content_instance .content_right
+{
+margin-top:30px;
+width:385px;
+float: inherit;
+}
+
+
+
+
+</style>
+
+
+<body>
+
+
+
+        <div id="header">
+        	<h1 >EVENT SPONSOR</h1>
+
+   </div>
+<br><br><br>
+
+<div id="content">
+  <div class="content_top">
+
+    <img src="images/sponz1.jpg" alt="stocknurse" class="center" width="950" height="350">
+
+<div id="menu">
+  <ul>
+
+<nav>
+        <li class="menuitem"><a href="index.html">About</a></li>
+        <li class="menuitem"><a href="prog2.html">Tentative Program</a></li>
+        <li class="menuitem"><a href="sp.html">Speakers</a></li>
+        <li class="menuitem"><a href="news.html">News & Media </a></li>
+        <li class="menuitem"><a href="registration.html"> Registration </a></li>
+      <li class="menuitem"><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+  </nav>
+</div>
+
+
+        <div id="content">
+        	<div class="content_top">
+
+            <script type='text/javascript'></script><SCRIPT LANGUAGE="JavaScript">
+
+          var message="   Go to contact us for sponsorship intents ";
+          var spc=10;
+          var speedisplay=50;
+          var times=2;
+          var rows=4;
+          var cols=100;
+          var stopbutton="yes"; // yes or no
+          var stopbuttonvalue="                      STOP                          ";
+          var startvalue="                      START                          ";
+          var len=spc*2;
+          var text=message;
+          var i;
+          var stop=false;
+          var stoppedisplay;
+          for (i=0;i<spc;i++) {
+          text=text+" ";
+          }
+          function array(n) {
+          this.length = n
+          for (i=1; i <= n; i++) {
+          this[i] ="";
+          }
+          return this;
+          }
+          document.writeln('<form name="F">')
+          document.writeln('<textarea rows='+rows+' cols='+cols+' name="display" wrap=soft></textarea>')
+          if (stopbutton == "yes") {
+          document.writeln('<br><input type=button value="'+stopbuttonvalue+'" onClick="stopstart()" name=stopit>');
+          }
+          document.writeln('</form>')
+          var l=text.length;
+          var ll=message.length;
+          var lb=new array(l)
+          var lr=new array(spc*2+1)
+          var lg=new array(ll)
+          var lk=new array(ll)
+          lb[0]=text;lb[l]=text;lr[0]=message;lg[0]=message;
+
+          for (j=1;j<l;j++) {
+          lb[j]=lb[j-1].substring(1, l)+lb[j-1].charAt(0);
+          }
+          lr[spc*2]=message;
+          for (i=1;i<=spc;i++) {
+          lr[i]=" "+lr[i-1]
+          }
+          for (i=spc*2-1;i>=spc+1;i--) {
+          lr[i]=" "+lr[i+1]
+          }
+          var ll=message.length;
+          for (j=1;j<ll;j++) {
+          for (i=lg[j-1].length-2;i>=0;i--) {
+          lg[j]=lg[j-1].charAt(i)+lg[j];
+          }
+          }
+          lk[ll]=message;
+          for (j=ll-1;j>=0;j--) {
+          lk[j]=lk[j+1].substring(1, l);
+          }
+          var lge="";
+          var lbe="";
+          var rle="";
+          for (i=0;i<rows;i++) {
+          lge=lge+lg[i]+unescape('%0D%0A');
+          }
+          for (i=0;i<rows;i++) {
+          lbe=lbe+lb[l-i]+unescape('%0D%0A');
+          }
+          for (i=1;i<=rows;i++) {
+          rle=rle+lr[spc*2-i]+unescape('%0D%0A');
+          }
+          var c=1;
+          var i=ll;
+          var j=0;
+          var f=0;
+          function lgf() {
+          if(stop==false) {
+          if(i>ll) {
+          j=0;
+          i=i-2;
+          }
+          if(i==0&&j==0) {
+          c++;
+          j=1;
+          }
+          if(j!=0) {
+          document.F.display.value=lg[i]+unescape('%0D%0A')+document.F.display.value;
+          i++;
+          }
+          if(j==0) {
+          document.F.display.value=lg[i]+unescape('%0D%0A')+document.F.display.value;
+          i--;
+          }
+          if(c<=times) {
+          setTimeout("lgf()",speedisplay);
+          }
+          else {
+          document.F.display.value=lge;
+          i=0;
+          j=0;
+          c=0;
+          t();
+          }
+          }
+          }
+          function t() {
+          if(stop==false) {
+          if(i>l) {i=1};
+          document.F.display.value=lb[i]+unescape('%0D%0A')+document.F.display.value;
+          i++;
+          j++;
+          if(j<=l*times) {
+          setTimeout("t()",speedisplay)}else{document.F.display.value=lbe;
+          i=0;
+          j=0;
+          rl();
+          }
+          }
+          }
+          function rl() {
+          if (stop==false) {
+          if(i>=spc*2) {i=0};
+          document.F.display.value=lr[i]+unescape('%0D%0A')+document.F.display.value;
+          i++;
+          j++;
+          if(j<len*times) {setTimeout("rl()",speedisplay)}else{document.F.display.value=rle;i=ll-1;j=0;trans()}
+          }
+          }
+          function trans() {
+          if(stop==false) {
+          document.F.display.value=lk[i]+unescape('%0D%0A')+document.F.display.value;
+          i--;
+          if(i!=1) {
+          setTimeout("trans()",speedisplay)
+          }
+          else {
+          i=ll;
+          lgf();
+          }
+          }
+          }
+          function stopstart() {
+          stoppedisplay=stop;
+          if(stoppedisplay==false) {
+          stop=true;document.F.stopit.value=startvalue;
+          }
+          if(stoppedisplay==true) {
+          stop=false;document.F.stopit.value=stopbuttonvalue;
+          document.F.display.value="";
+          i=11;
+          j=0;
+          c=0;
+          lgf();
+          }
+          }
+          if (rows>spc||rows>ll) {
+          alert("ERROR!\nrows can NOT be more that spaces or message length!!!!")
+          }
+          if (spc+ll>cols) {
+          alert("ERROR!\ncols(coloums) can NOT be less that the message length + spacing length")
+          }
+          if (rows<=spc&&rows<=ll&&spc+ll<=cols) {
+          lgf();
+          }
+          </script>
+              <br><br><br>
+
+
+            </div>
+
+            <div class="content_instance">
+              <div class="content_right">
+
+                <img src="images/spon5.jpg"  width="350" height="200">
+
+
+            </div>
+            <div class="content_instance">
+                <div class="content_right">
+                  <img src="images/spon1.png" />
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
